@@ -12,6 +12,7 @@
     }
 
     .navMenu{
+        flex-wrap: nowrap;
         flex: 100%;
         display: flex;
     }
