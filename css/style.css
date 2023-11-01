@@ -22,14 +22,17 @@ body {
         justify-content: space-between;
         flex-wrap: wrap;
     }
-
-
-        .logoImg{
+    
+        .logoElement{
             flex: 20%;
-            filter: invert(0.95);
-            max-width: 20em;
-            margin: 1em;
         }
+
+            .logoImg{
+                
+                filter: invert(0.95);
+                width: 20em;
+                margin: 1em;
+            }
 
         .navMenu{
             flex: 40%;
@@ -41,12 +44,12 @@ body {
 
             .menuItem{
                 cursor: pointer;
-                font-size: 200%;
+                font-size: 180%;
             }
 
         .navLimit{
             flex: 10%;
-            font-size: 200%;
+            font-size: 150%;
             cursor: pointer;
             align-self: center;
             text-align: center;
