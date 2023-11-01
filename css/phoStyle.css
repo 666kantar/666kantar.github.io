@@ -1,8 +1,21 @@
 @media(max-width:761px){
     .main {clip-path: none;}
 
+    nav{
+        flex-direction: column;
+    }
+
+    .navMenu{
+        display: flex;
+        justify-content: space-between;
+    }
+
     .menuItem{
-        padding: 20% 0;
+        font-size: 100%;
+    }
+
+    .navLimit{
+        font-size: 90%;
     }
 
 
