@@ -1,6 +1,10 @@
 @media(max-width:761px){
     .main {clip-path: none;}
 
+    .menuItem{
+        margin: 3em;
+    }
+
 
 
     .aimg2, .aimg3, .aimg4,  #abo, #aboe{
