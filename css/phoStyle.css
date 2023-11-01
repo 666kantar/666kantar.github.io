@@ -8,7 +8,7 @@
     }
 
     .logoimg{
-        width: 80%;
+        max-width: 80%;
     }
 
     .navMenu{
