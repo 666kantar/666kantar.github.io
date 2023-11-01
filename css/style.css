@@ -45,6 +45,7 @@ body {
             .menuItem{
                 cursor: pointer;
                 font-size: 180%;
+                margin: 1em;
             }
 
         .navLimit{
