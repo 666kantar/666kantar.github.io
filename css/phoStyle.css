@@ -1,0 +1,5 @@
+@media(max-width:761px){
+    .aimg2, .aimg3, .aimg4,  #abo, #aboe{
+        background-attachment: scroll;
+    }
+}
