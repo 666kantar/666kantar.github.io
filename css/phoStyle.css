@@ -1,4 +1,8 @@
 @media(max-width:761px){
+    .main {clip-path: none;}
+
+
+
     .aimg2, .aimg3, .aimg4,  #abo, #aboe{
         background-attachment: scroll;
     }
