@@ -2,9 +2,12 @@
     .main {clip-path: none;}
 
     nav{
-        flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+
+    .logoElement{
+        margin: 0 20;
     }
 
     .logoimg{
@@ -15,7 +18,6 @@
     .navMenu{
         flex-wrap: nowrap;
         flex: 100%;
-        display: flex;
     }
 
     .menuItem{
@@ -23,7 +25,7 @@
     }
 
     .navLimit{
-        font-size: 90%;
+        display: none;
     }
 
 
