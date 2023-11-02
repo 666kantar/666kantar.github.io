@@ -24,6 +24,15 @@
         display: none;
     }
 
+    footer{
+        flex-direction: column;
+        align-items: start;
+    }
+
+        .company{
+            align-self: center;
+        }
+
     .aimg2, .aimg3, .aimg4,  #abo, #aboe{
         background-attachment: scroll;
         min-height: 200px;
