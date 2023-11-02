@@ -111,9 +111,12 @@
         padding: 4%;
     }
     
-
+    .vertical-line{
+        height: 80%;
+    }
 
     .contactItem{
+        margin: 1em 0;
         font-size: 120%;
     }
 }
