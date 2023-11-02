@@ -176,7 +176,7 @@ text-align: center;
     max-width: 100%;
     color: #fbfbfb;;
     display: flex;
-    align-items: center;
+
     justify-content: space-between;
     height: 300px;
 }
