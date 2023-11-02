@@ -206,6 +206,7 @@ a.cont:hover{
 #abo{
     background: url("../img/28.png");
     clip-path: none;
+    min-height: 400px;
       
 }
 

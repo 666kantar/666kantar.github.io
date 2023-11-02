@@ -28,9 +28,17 @@
         display: none;
     }
 
-
-
     .aimg2, .aimg3, .aimg4,  #abo, #aboe{
         background-attachment: scroll;
+        min-height: 200px;
+    }
+    #aboe{
+        clip-path: none;
+           
+    }
+
+    .atext .border{
+        background-color: transparent;
+        padding: 0;
     }
 }
