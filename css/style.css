@@ -3,7 +3,6 @@
 	src: url("../Albionic.ttf");
 }
 
-
 body {
     font-family: "Lato", sans-serif;
     padding: 0;
@@ -92,6 +91,7 @@ body {
             display: flex;
             justify-content: center;
             align-items: center;
+            overflow: hidden;
         }
 
             .mainImg {
