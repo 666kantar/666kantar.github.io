@@ -23,14 +23,10 @@ body {
         flex-wrap: wrap;
     }
     
-        .logoElement{
-            flex: 20%;
-        }
-
             .logoImg{
                 
                 filter: invert(0.95);
-                width: 20em;
+                max-width: 15em;
                 margin: 1em;
             }
 
@@ -70,13 +66,14 @@ body {
         .mainItem {
             width: 100%;
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             justify-content: center;
             flex-wrap: wrap;
         }
 
         .mainPrice {
-            font-size: 60px;
+            margin: 0.6em 0 1em 1em;
+            font-size: 6em;
             font-weight: 300;
             text-align: center;
             color: white;
@@ -97,12 +94,13 @@ body {
 
             .mainImg {
                 z-index: 1;
-                width: 13em;
+                height: 100%;
                 transform: rotate(9deg);
                 filter: drop-shadow(21px 16px 23px black) invert(0%);
             } 
 
         .mainBuy{
+            margin: 1em 1em 5em 0;
             display: flex;
             flex-direction: column;
             text-align: center;

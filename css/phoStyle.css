@@ -6,13 +6,9 @@
         justify-content: center;
     }
 
-    .logoElement{
-        margin: 0 20;
-    }
-
     .logoimg{
         width: auto;
-        max-width: 80%;
+        max-width: 20em;
     }
 
     .navMenu{
@@ -21,7 +17,7 @@
     }
 
     .menuItem{
-        font-size: 100%;
+        font-size: 1.2em;
     }
 
     .navLimit{
