@@ -209,7 +209,7 @@ a.cont:hover{
 /* About */
 
 #abo{
-    background: url("../img/28.png");
+    background: url("../../img/28.png");
     clip-path: none;
     min-height: 400px;
       
@@ -226,19 +226,19 @@ a.cont:hover{
 }
 
 .aimg2{
-    background-image: url('../img/3.JPG');
+    background-image: url('../../img/3.JPG');
     min-height: 400px;
 }
 
 
 .aimg3{
-    background-image: url('../img/50.JPG');
+    background-image: url('../../img/50.JPG');
     min-height: 400px;
 }
 
 
 .aimg4{
-    background-image: url('../img/88.png');
+    background-image: url('../../img/88.png');
     min-height: 400px;
 }
 

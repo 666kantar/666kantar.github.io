@@ -1,4 +1,4 @@
-<html lang="en">
+<html lang="ua">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,75 +10,32 @@
         rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/phoStyle.css">
-    <link rel="shortcut icon" href="./img/logo.png" />
+    <link rel="shortcut icon" href="../img/logo.png" />
 
 </head>
 <body>
-  <nav>
+    <script>
 
-        <img src="./img/logoTT.png" alt="" class="logoImg"> 
-
-     
-    <div class="navMenu">
-        <div class="menuItem" id="wine2">WINES</div>
-        <div class="menuItem" id="about1">ABOUT US</div>
-        <div class="menuItem" id="contact1">CONTACT</div>
-    </div>
-        <div class="navLimit">
-            <span class="limitedOffer" id="wine3">Limited Offer!</span>
-        </div>
-</nav>  
-
-
-
-
-  <div class="main">
-    <div class="mainItem">
-        <div class="price">
-            <h2 class="mainPrice">$29</h2>
-        </div>
         
+        const userLang = navigator.language || navigator.userLanguage;
+        let langCode = userLang.substring(0, 2);
 
-        <div class="mainImgBg">        
-            <img src="./img/5.png" alt="" class="mainImg" >
+        
+        // Перевіряємо підтримувані мови
+        const supportedLanguages = ['en', 'uk', 'ru'];
 
-        </div>
+        // Якщо обрана мова не підтримується, встановлюємо мову за замовчуванням
+        if (!supportedLanguages.includes(langCode)) {
+            langCode = 'en';
+        }
 
-        <div class="mainBuy">
-            
-            <h1 class="mainTitle">RED</br>SEMI<br>SWEET</h1>
+        // Перевіряємо, чи мова - "ru". Якщо так, переходимо на україномовну версію
+        if (langCode === 'ru') {
+            langCode = 'uk';
+        }
 
-            <a id="contact2">
-                <button class="buyButton">BUY NOW!</button>
-            </a>  
-
-        </div>
-              
-    </div>
-</div>
-
-
-
-
-<footer>
-    <div class="icons" id="contact3">
-        <img src="./img/shipping.png" alt="" class="iconsIco">
-        <div class="iconsTitle">SHIPPING
-            <p>Rates according to the carrier's terms</p>
-        </div>
-    </div>
-
-    <div class="icons" id="contact4">
-        <img class="iconsIco" src="./img/contact.png" alt="">
-        <div class="iconsTitle">CONTACT US!
-            <p>Keep in touch via telegram and phone number.</p>
-        </div>
-    </div>
-    
-    <div class="company">© 2023, <a href="./About.html">ZAIATS CO.</a> All rights reserved</div>
-
-</footer>
-
-<script src="./script.js"></script>
+        // Перенаправляємо користувача на відповідний файл для вибраної мови
+        window.location.href = `./${langCode}/index.html`;
+    </script>
 </body>
 </html>
